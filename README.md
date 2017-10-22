@@ -14,7 +14,7 @@ You can use npm or yarn
 
 All the required code for the application is in the src folder, follow the structure like so.
 Containers are "views" that are smart components that load our data.
-Components are "presenters" that are dum components and only receive data from higher up (Smart components)
+Components are "presenters" that are dumb components and only receive data from higher up (Smart components)
 
 In terms of the API, it is found in the Services folder, and is basically a HTTP client that loads a json file from gist.github.
 
