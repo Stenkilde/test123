@@ -1,0 +1,34 @@
+.modal {
+    z-index: 100;
+    content: '';
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    .content {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        width: 100%;
+        padding: 12px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+    }
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 376px)  {
+    .modal {
+        .content {
+            max-width: 550px;
+        }
+    }
+}

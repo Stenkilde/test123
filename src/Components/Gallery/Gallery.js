@@ -8,15 +8,9 @@ class Gallery extends Component {
     render() {
         return (
             <div className="gallery">
-                {(() => {
-                    return (
-                        this.props.photos.map((photo, index) => {
-                            return (
-                                <GalleryItem key={index} data={photo} />
-                            );
-                        })
-                    )
-                })()}
+                {this.props.photos.map((photo, index) => (
+                    <GalleryItem key={index} data={photo} />
+                ))}
             </div>
         );
     }

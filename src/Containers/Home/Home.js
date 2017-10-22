@@ -28,18 +28,10 @@ class Home extends Component {
             <div className="Home">
                 <Header />
                 <section>
-                    {(() => {
-                        // @NOTE We don't want to mount if there is no jobs in the feed
-                        if (this.state.photos.length !== 0) {
-                            return (
-                                <Gallery photos={this.state.photos} />
-                            )
-                        } else {
-                            return (
-                                <h2>There is no photos available at the moment</h2>
-                            );
-                        }
-                    })()}
+                    <div>
+                        {this.state.photos.length !== 0 ? <Gallery photos={this.state.photos} />
+                        : <h2>There is no photos available at the moment</h2>}
+                    </div>
                 </section>
             </div>
         );

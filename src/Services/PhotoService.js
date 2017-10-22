@@ -1,4 +1,4 @@
-var URL = 'https://gist.githubusercontent.com/Stenkilde/6b6fa57bb97840daaa9427c900a32255/raw/821caf79b7f58a30fafb75f3c8f9358dd2845822/photosjson.json';
+var URL = 'https://gist.githubusercontent.com/Stenkilde/6b6fa57bb97840daaa9427c900a32255/raw/852d130da3f75b40b60aa5f97ffc7822edca2090/photosjson.json';
 var request = require('./Request.js');
 
 function collection() {
