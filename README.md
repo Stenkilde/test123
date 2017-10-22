@@ -1,14 +1,13 @@
 # Bluebyte Photo Stories
 
-This readme, assumes you have either npm / yarn installed
-
-You can use npm or yarn
+This README assumes you have either npm or yarn installed.
 
 ```
    $ npm install
    $ npm start
 
    # OR
+   
    $ yarn install
    $ yarn start
 ```
