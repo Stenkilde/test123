@@ -1,5 +1,6 @@
 # Bluebyte Photo Stories
 
+This readme, assumes you have either npm / yarn installed
 
 You can use npm or yarn
 
