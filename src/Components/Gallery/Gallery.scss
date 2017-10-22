@@ -1,0 +1,69 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.galleryItem {
+    position: relative;
+    margin: 12px;
+    overflow: hidden;
+}
+
+.thumbnail {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.thumbnail .image {
+    width: 100%;
+}
+
+.galleryItem:hover .meta {
+    bottom: 0;
+}
+
+.meta {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -40%;
+    background: rgba(0, 0, 0, .7);
+    transition: all .3s ease-in-out;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.meta .description {
+    font-size: 12px;
+}
+
+/* Should recode this into a better more solid css block */
+.meta * {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+// Modal SCSS
+.modal {
+    content: '';
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal .content {
+    position: fixed;
+    padding: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+}
