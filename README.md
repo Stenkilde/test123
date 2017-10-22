@@ -7,9 +7,9 @@ You can use npm or yarn
    $ npm install
    $ npm start
 
-   // OR
+   # OR
    $ yarn install
-   $yarn start
+   $ yarn start
 ```
 
 All the required code for the application is in the src folder, follow the structure like so.
